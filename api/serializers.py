@@ -1,0 +1,8 @@
+from rest_framework import serializers
+
+from project.models import Members
+
+class MembersSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Members
+        fields = ('first_name', 'last_name', 'phone_number', 'client_member_id', 'account')
