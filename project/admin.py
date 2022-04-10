@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.urls import path
+from django.shortcuts import render
 from .models import Account, Members
 
 class AccountAdmin(admin.ModelAdmin):
@@ -15,5 +16,8 @@ class MembersAdmin(admin.ModelAdmin):
         urls = super().get_urls()
         new_urls = [path('upload-csv/', self.upload_csv),]
         return new_urls + urls
+    
+    def upload_csv(self, request):
+        return render('admin/csv_upload.html')
 
 admin.site.register(Members, MembersAdmin)
