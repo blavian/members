@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "abba43a1b4bf25c51a7839bf99326f649f3ba14d6c2cea67932beea0da584937"
+            "sha256": "74abc4c3264748656bbbbcec0cf06b8f7f4d6dbd38ed51372e6664c6854d5a23"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -48,6 +48,12 @@
             "index": "pypi",
             "version": "==4.0.3"
         },
+        "django-author": {
+            "hashes": [
+                "sha256:484562e6ad217d215c29cce6d199f875de245b68f9d409fc8f914b9b93a9f45f"
+            ],
+            "version": "==1.0.4"
+        },
         "django-filter": {
             "hashes": [
                 "sha256:632a251fa8f1aadb4b8cceff932bb52fe2f826dd7dfe7f3eac40e5c463d6836e",
@@ -63,6 +69,14 @@
             ],
             "index": "pypi",
             "version": "==2.8.0"
+        },
+        "django-import-export-celery": {
+            "hashes": [
+                "sha256:7cb770c1ceec9bb24ddc04f89d7787418986fefe0cb2b49f48cccf4cf8a85797",
+                "sha256:e581a7147371215d7aef286e214117311a5327879081d9940787c8acac6508ae"
+            ],
+            "index": "pypi",
+            "version": "==1.2"
         },
         "djangorestframework": {
             "hashes": [
@@ -144,6 +158,13 @@
                 "sha256:f84fbc98b019fef2ee9a1cb3ce93e3187a6df0b2538a651bfb890254ba9f90b5"
             ],
             "version": "==6.0"
+        },
+        "setuptools-git": {
+            "hashes": [
+                "sha256:e7764dccce7d97b4b5a330d7b966aac6f9ac026385743fd6cedad553f2494cfa",
+                "sha256:ff64136da01aabba76ae88b050e7197918d8b2139ccbf6144e14d472b9c40445"
+            ],
+            "version": "==1.2"
         },
         "sqlparse": {
             "hashes": [
