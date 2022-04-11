@@ -10,6 +10,7 @@ django-filter = "*"
 django-import-export = "*"
 django-import-export-celery = "*"
 celery = "*"
+redis = "*"
 
 [dev-packages]
 
