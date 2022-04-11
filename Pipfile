@@ -9,6 +9,7 @@ djangorestframework = "*"
 django-filter = "*"
 django-import-export = "*"
 django-import-export-celery = "*"
+celery = "*"
 
 [dev-packages]
 
