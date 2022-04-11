@@ -88,3 +88,8 @@ In order to access the collection, you need to provide your username and passwor
 You can import a csv file via the django admin interface
 The endpoint for it is [here](http://127.0.0.1:8000/admin/project/members/)
 
+## Improvements
+1. Allow for token based authentication
+2. Have more test cases
+3. Integrate Celery with django-import-export to run processes in the background
+
